@@ -1,0 +1,50 @@
+/*login*/
+body {font-family: Arial, sans-serif;background: linear-gradient(135deg, #1da1f2, #14171a);display: flex;justify-content: center;align-items: center;height: 100vh;margin: 0;}
+.login-container {background-color: rgba(0, 0, 0, 0.7);padding: 40px;border-radius: 10px;box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);text-align: center;max-width: 400px;width: 100%;transition: transform 0.3s;}
+.login-container:hover {transform: scale(1.05);}
+.login-container h2 {margin-bottom: 20px;font-size: 2.5rem;color: #fff;}
+.login-container label {display: block;text-align: left;margin-bottom: 5px;font-size: 1.2em;color: #fff;}
+.login-container label[for="usuario"] {font-weight: bold;}
+.login-container label[for="clave"] {font-weight: bold;}
+.login-container input[type="text"],
+.login-container input[type="password"] {width: 100%;padding: 15px;margin-bottom: 20px;border: 2px solid #1da1f2;border-radius: 5px;box-sizing: border-box;font-size: 1.2em;background-color: rgba(255, 255, 255, 0.2);color: #fff;transition: border-color 0.3s;}
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {border-color: #fff;}
+.login-container input[type="text"][data-typed="yes"],
+.login-container input[type="password"][data-typed="yes"] {color: #4285f4;}
+.login-container input[type="password"][data-typed="password"] {color: #e53935;}
+.login-container .custom-btn {background-color: #1da1f2;color: #fff;padding: 15px 20px;border: none;border-radius: 5px;cursor: pointer;width: 100%;font-size: 1.2em;transition: background-color 0.3s;}
+.login-container .custom-btn:hover {background-color: #0d8ecf;}
+.login-container .custom-btn:active {background-color: #0d8ecf;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);}
+.link {color: #1da1f2;text-decoration: none;}  /*font-size: 1.1em;*/
+.link:hover {text-decoration: underline;}
+#pageTitle {font-size: 24px;color: blue; /* Otros estilos que desees aplicar */}
+/* Estilo para el icono de mostrar/ocultar contraseña */
+.show-password-icon {cursor: pointer;user-select: none;}
+/* Estilo para la contraseña */
+.password-field {padding-right: 30px; /* Para dar espacio al icono de mostrar/ocultar contraseña */}
+/*login*/
+/*loginFINNNCODE*/
+
+
+
+/* body, html {*/
+/*     height: 100%;*/
+/*     width: 100%;*/
+/* }*/
+/* */
+/* .main-container {*/
+/*     height: 100%;*/
+/*     width: 100%;*/
+/*     display: flex;*/
+/*     justify-content: center;*/
+/*     align-items: center;*/
+/* }*/
+/* */
+/* */
+/*.main-container > .login{*/
+/*    height: auto;*/
+/*    width: 100%;*/
+/*    max-width: 400px;*/
+/*    min-width: 300px;*/
+/*}*/

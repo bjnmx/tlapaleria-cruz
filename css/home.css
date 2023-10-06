@@ -1,0 +1,140 @@
+    /* styles.css */
+
+    /* ... (estilos anteriores) */
+
+    /* Agregar animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* styles.css */
+/* ... (estilos anteriores) */
+body{
+    background: linear-gradient(135deg, #20B2AA, #8DECE7);
+
+    padding: 0.313em;
+    height: 100%;
+}
+.box {
+    background-color: #fff;
+    border-radius: 0.313em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    padding: 1.25em;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out; /* Transición suave de color de fondo */
+}
+/* Cambiar el color de fondo al pasar el mouse */
+.box:hover {
+    background: linear-gradient(135deg, #20B2AA, #8DECE7); /* Color de fondo al pasar el mouse */
+}
+/* cambair el color del bulma h1 a el que quiera yop   */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6:hover{
+    color: #20B2AA;
+    font-weight: 600;
+    line-height: 1.125;
+}
+/* styles.css */
+
+/* Estilo para la sección principal */
+.section {
+    background: linear-gradient(135deg, #198A84, #82E6E1);
+    padding: 1.25em;
+}
+/* Estilo para las cajas */
+.box {
+    background-color: #fff;
+    border-radius:0.313em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    padding: 1.25em;
+    text-align: center;
+}
+/* Estilo para los títulos */
+.title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.625em;
+}
+/* Estilo para los enlaces */
+.box a {
+    color: #d7e2ee;
+    text-decoration: none;
+    font-weight: bold;
+}
+.box a:hover {
+    text-decoration: underline;
+}
+.content {
+    /* Estilos para el contenido principal si es necesario */
+    margin-bottom: 6.25em; /* Ajusta esto según la altura de tu footer */
+}
+.footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    text-align: center;
+    padding: 0.313em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+.tooltip {
+     position: relative;
+     display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 7.5em;
+    background: linear-gradient(135deg, #198A84, #82E6E1);
+    color: #fff;
+    text-align: center;
+    border-radius: 0.375em;
+    padding: 0.125em 0;
+    font-weight: bold;
+    border: 0.125em solid #FFFFFF; /* Agregado el borde blanco */
+
+        /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 5px; /* Ajusta la separación vertical aquí */
+    left: 160px;
+}
+
+.tooltip:hover .tooltiptext {
+   visibility: visible;
+}
+
+
+.column:hover{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
+
+.home{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    }
+
+
+    .hero:hover {
+        opacity: 0; /* Inicialmente, establecemos la opacidad en 0 */
+        transform: translateY(-1.25em); /* Desplazamos la sección hacia arriba */
+        transition: opacity 0.5s, transform 0.5s; /* Transición suave de 0.5 segundos */
+    }
+
+    /* Cuando se active la clase 'is-visible', la sección se volverá visible */
+    .is-visible .hero:hover {
+        opacity: 1;
+        transform: translateY(0);
+    }

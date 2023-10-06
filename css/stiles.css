@@ -1,0 +1,30 @@
+body{
+    padding: 0.313em;
+}
+
+
+/*btnHome para darle mas forma y centrar al btn de salir session*/
+.btnHome{
+    padding: .99em 0 .5em 0;
+
+}
+
+/*btnexit para darle mas forma y centrar al btn de salir session*/
+.btnExit{
+    padding: 0 0 .5em 0;
+}
+
+/*navBar para titulo Sistema*/
+.x-small{
+    font-size: x-small;
+    background: linear-gradient(100deg, #cad9ec, #73acef);
+    border-radius: 0.188em 0.188em 0.188em 0.188em;
+}
+/*navBar para titulo categoria de prodcutos*/
+.catProd{
+    border-radius: 0.188em 0.188em 0.188em 0.188em;
+    background: linear-gradient(100deg, #cad9ec, #73acef);
+
+}
+
+
